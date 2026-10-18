@@ -1,6 +1,6 @@
 # Helper module for the billing office.
 # One constant and two functions, used by the bill notice script.
-RESIDENTIAL_RATE = 12  # cents per unit; business customers pay double
+RESIDENTIAL_RATE = 15  # cents per unit; business customers pay double
 
 def units_used(previous_reading, current_reading):
     # Negative means the meter went backwards.
